@@ -17,6 +17,17 @@ int buscaSequencial(vector<int> arr, int n)
     }
     return -1;
 }
+//recursive
+int buscaSequencial(vector<int> arr, int n, int i)
+{
+    if (arr[i] == n)
+    {
+        return i;
+    }
+    i++;
+    cont++;
+    return buscaSequencial(arr, n, i);
+}
 
 int buscaBinaria(vector<int> arr, int l, int r, int x)
 {
@@ -70,7 +81,7 @@ int main()
     }
 
     sort(arr.begin(), arr.end());
-    res = buscaBinaria(arr, 0, 1000, n);
+    res = buscaBinaria(arr, 0, arr.size(), n);
     if (res != -1)
     {
         printf("Numero de comparacoes na busca binaria: %d\n", contb);

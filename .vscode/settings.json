@@ -2,6 +2,19 @@
     "files.associations": {
         "cmath": "cpp",
         "complex": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "valarray": "cpp",
+        "bit": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "string_view": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp"
     }
 }

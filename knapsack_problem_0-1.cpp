@@ -29,9 +29,7 @@ int knapSackBottomUp(int W, int wt[], int val[], int n)
 }
 
 // Returns the value of maximum profit
-int knapSackRec(int W, int wt[],
-                int val[], int i,
-                int **dp)
+int knapSackRec(int W, int wt[], int val[], int i, int **dp)
 {
     // base condition
     if (i < 0)

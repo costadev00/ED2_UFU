@@ -15,6 +15,7 @@
         "functional": "cpp",
         "string_view": "cpp",
         "memory_resource": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "new": "cpp"
     }
 }
